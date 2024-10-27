@@ -16,6 +16,11 @@
 		755CD3C42CCE0D610090EE2B /* people_infoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CD3C32CCE0D610090EE2B /* people_infoTests.swift */; };
 		755CD3CE2CCE0D610090EE2B /* people_infoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CD3CD2CCE0D610090EE2B /* people_infoUITests.swift */; };
 		755CD3D02CCE0D610090EE2B /* people_infoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CD3CF2CCE0D610090EE2B /* people_infoUITestsLaunchTests.swift */; };
+		755CD3DD2CCE0F8E0090EE2B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CD3DC2CCE0F8E0090EE2B /* HomeView.swift */; };
+		755CD3DF2CCE10120090EE2B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CD3DE2CCE10120090EE2B /* Data.swift */; };
+		755CD3E12CCE11AD0090EE2B /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CD3E02CCE11AD0090EE2B /* StoryView.swift */; };
+		755CD3E32CCE12D70090EE2B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CD3E22CCE12D70090EE2B /* FavoritesView.swift */; };
+		755CD3E52CCE13750090EE2B /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CD3E42CCE13750090EE2B /* FunFactsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		755CD3C92CCE0D610090EE2B /* people_infoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = people_infoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		755CD3CD2CCE0D610090EE2B /* people_infoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = people_infoUITests.swift; sourceTree = "<group>"; };
 		755CD3CF2CCE0D610090EE2B /* people_infoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = people_infoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		755CD3DC2CCE0F8E0090EE2B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		755CD3DE2CCE10120090EE2B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		755CD3E02CCE11AD0090EE2B /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		755CD3E22CCE12D70090EE2B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		755CD3E42CCE13750090EE2B /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				755CD3AC2CCE0D5D0090EE2B /* people_infoApp.swift */,
+				755CD3DC2CCE0F8E0090EE2B /* HomeView.swift */,
 				755CD3AE2CCE0D5D0090EE2B /* ContentView.swift */,
 				755CD3B02CCE0D610090EE2B /* Assets.xcassets */,
+				755CD3DE2CCE10120090EE2B /* Data.swift */,
 				755CD3B52CCE0D610090EE2B /* Persistence.swift */,
 				755CD3BA2CCE0D610090EE2B /* Info.plist */,
 				755CD3B72CCE0D610090EE2B /* people_info.xcdatamodeld */,
 				755CD3B22CCE0D610090EE2B /* Preview Content */,
+				755CD3E02CCE11AD0090EE2B /* StoryView.swift */,
+				755CD3E22CCE12D70090EE2B /* FavoritesView.swift */,
+				755CD3E42CCE13750090EE2B /* FunFactsView.swift */,
 			);
 			path = people_info;
 			sourceTree = "<group>";
@@ -266,9 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				755CD3B92CCE0D610090EE2B /* people_info.xcdatamodeld in Sources */,
+				755CD3DF2CCE10120090EE2B /* Data.swift in Sources */,
 				755CD3B62CCE0D610090EE2B /* Persistence.swift in Sources */,
+				755CD3E12CCE11AD0090EE2B /* StoryView.swift in Sources */,
+				755CD3E32CCE12D70090EE2B /* FavoritesView.swift in Sources */,
 				755CD3AF2CCE0D5D0090EE2B /* ContentView.swift in Sources */,
+				755CD3DD2CCE0F8E0090EE2B /* HomeView.swift in Sources */,
 				755CD3AD2CCE0D5D0090EE2B /* people_infoApp.swift in Sources */,
+				755CD3E52CCE13750090EE2B /* FunFactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
